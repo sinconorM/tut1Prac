@@ -13,6 +13,7 @@ public class Greeter {
             String name = getName();
             greeter(name);
         }
+	// Placeholder for calling goodbye() if needed in the future
     }
 
     /**
@@ -38,6 +39,10 @@ public class Greeter {
     /**
      * Prints a parting message to the user.
      */
+    public static void goodbye() {
+        System.out.println("Goodbye! It was great having you here. We hope to see you again soon!");
+    }
+
     public static void goodbye() {
         System.out.println("Goodbye! It was great having you here. We hope to see you again soon!");
     }
